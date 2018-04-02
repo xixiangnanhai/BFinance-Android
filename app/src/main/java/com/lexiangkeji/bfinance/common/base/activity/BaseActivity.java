@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentActivity;
 
 import com.lexiangkeji.bfinance.common.manager.ActivityManager;
+import com.lexiangkeji.bfinance.common.utils.StatusUtils;
 
 /**
  * Created by 樊磊 on 2018/4/2.
@@ -18,11 +19,15 @@ public class BaseActivity extends FragmentActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ActivityManager.Instance().pushActivity(this);// 入栈
+
+        StatusUtils.setFullToStatusBar(this);// 沉浸式
+
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
         ActivityManager.Instance().outStackActivity(this);// 出栈
+
     }
 }
