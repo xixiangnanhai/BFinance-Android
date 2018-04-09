@@ -10,7 +10,11 @@ import android.view.WindowManager;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-public class StatusUtils {
+public final class StatusUtils {
+
+    public StatusUtils() {
+        throw new UnsupportedOperationException("u can't instantiate me...");
+    }
 
     /**
      * Set the system bar color.

@@ -2,6 +2,7 @@ package com.lexiangkeji.bfinance.common.network;
 
 import com.google.gson.Gson;
 import com.lexiangkeji.bfinance.common.data.Constants;
+import com.lexiangkeji.bfinance.common.utils.GsonUtils;
 
 import java.util.concurrent.TimeUnit;
 
@@ -20,7 +21,7 @@ public class ServiceGenerator {
 
     private static Retrofit.Builder builder = new Retrofit.Builder()
             .client(buildOkHttpClient())
-            .addConverterFactory(GsonConverterFactory.create(new Gson()))
+            .addConverterFactory(GsonConverterFactory.create(GsonUtils.getInstance()))
             .addCallAdapterFactory(RxJavaCallAdapterFactory.create());
 
     private static OkHttpClient buildOkHttpClient() {

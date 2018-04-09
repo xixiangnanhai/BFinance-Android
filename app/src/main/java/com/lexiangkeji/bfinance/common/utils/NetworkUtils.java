@@ -20,9 +20,13 @@ import java.util.regex.Pattern;
  * 网络相关的工具类
  * Created by chenmingzhen on 16-6-7.
  */
-public class NetworkUtils {
+public final class NetworkUtils {
 
     private static final String TAG = NetworkUtils.class.getSimpleName();
+
+    private NetworkUtils() {
+        throw new UnsupportedOperationException("u can't instantiate me...");
+    }
 
     /**
      * 判断网络连接是否打开,包括移动数据连接
