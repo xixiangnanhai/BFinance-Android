@@ -1,0 +1,59 @@
+<resources>
+    <dimen name="divider">0.5dp</dimen>
+    <dimen name="double_divider">0.75dp</dimen>
+
+    <dimen name="xxsmall_padding">4dp</dimen>
+    <dimen name="xsmall_padding">8dp</dimen>
+    <dimen name="small_padding">10dp</dimen>
+    <dimen name="medium_padding">12dp</dimen>
+    <dimen name="xmedium_padding">14dp</dimen>
+    <dimen name="large_padding">16dp</dimen>
+    <dimen name="larger_padding">18dp</dimen>
+    <dimen name="xlarge_padding">20dp</dimen>
+    <dimen name="xlarger_padding">22dp</dimen>
+    <dimen name="xxlarge_padding">24dp</dimen>
+    <dimen name="xxlarger_padding">26dp</dimen>
+    <dimen name="slarge_padding">28dp</dimen>
+    <dimen name="slarger_padding">30dp</dimen>
+
+    <dimen name="huge_padding">72dp</dimen>
+
+    <dimen name="half_small_padding">5dp</dimen>
+
+    <dimen name="text_size_xsmall">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_larger">18sp</dimen>
+    <dimen name="text_size_xlarge">20sp</dimen>
+    <dimen name="text_size_36">36sp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="btn_normal_height">44dp</dimen>
+    <dimen name="item_normal_height">44dp</dimen>
+    <dimen name="btn_small_height">36dp</dimen>
+
+    <dimen name="living_info_desc_min_width">110dp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_100">100sp</dimen>
+    <dimen name="text_size_50">50sp</dimen>
+    <dimen name="text_size_45">45sp</dimen>
+    <dimen name="text_size_44">44sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_27">27sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_19">19sp</dimen>
+    <dimen name="text_size_25">25sp</dimen>
+    <dimen name="text_size_28">26sp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+
+    <!--toolbar-->
+    <dimen name="toolbar_left_text_margin_navigation_bar">-20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

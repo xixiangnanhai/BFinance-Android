@@ -1,6 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="theme_primary">#ffffff</color>
+    <color name="theme_primary_dark">#000000</color>
+    <color name="theme_accent">#fcdc59</color>
+
+    <color name="window_background">#F8F8F8</color>
+
+
+    <color name="text_color_tertiary">#DCDCDC</color>
+    <color name="text_color_hint">#DCDCDC</color>
+
+    <color name="color_FEE9EC">#FEE9EC</color>
+    <color name="color_FCD6D6">#FCD6D6</color>
+    <color name="blue">#005EC9</color>
+    <color name="color_D0291B">#D0291B</color>
+    <color name="color_B2000000">#B2000000</color>
+    <color name="color_99000000">#99000000</color>
+    <color name="divider">@color/window_background</color>
+
+    <color name="color_333333">#333333</color>
+    <color name="color_FD7F28">#FD7F28</color>
+    <color name="color_887683">#887683</color>
+    <color name="color_E83D2E">#E83D2E</color>
+    <color name="color_F0F4F5">#F0F4F5</color>
+    <color name="color_FFFFFF">#FFFFFF</color>
+    <color name="color_dcb063">#DCB063</color>
+    <color name="color_DCDCDC">#DCDCDC</color>
+    <color name="color_F7B62D">#F7B62D</color>
+    <color name="color_F7762D">#F7762D</color>
+    <color name="color_ff5b4d">#FF5B4D</color>
+    <color name="color_f5c87a">#F5C87A</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_3eb8f7">#3EB8F7</color>
+    <color name="color_444444">#444444</color>
+    <color name="color_DEDEDE">#DEDEDE</color>
+    <color name="color_EDEDED">#EDEDED</color>
+    <color name="color_FDA316">#FDA316</color>
+    <color name="color_3481C3">#3481C3</color>
+    <color name="color_DAAC5B">#DAAC5B</color>
+    <color name="color_F8F8F8">#F8F8F8</color>
+    <color name="color_FEFBF4">#FEFBF4</color>
+    <color name="color_875605">#875605</color>
+    <color name="color_FBD855">#FBD855</color>
+    <color name="color_fcdc59">#fcdc59</color>
+    <color name="color_f7b62d">#f7b62d</color>
+    <color name="color_FE6E6E">#FE6E6E</color>
+    <color name="color_FF5757">#FF5757</color>
+    <color name="color_C2C2C2">#C2C2C2</color>
+    <color name="color_4A4A4A">#4A4A4A</color>
+    <color name="color_868686">#868686</color>
+    <color name="color_D19409">#D19409</color>
+    <color name="color_FF5454">#FF5454</color>
+    <color name="color_FC5303">#FC5303</color>
+    <color name="color_F7BA32">#F7BA32</color>
+    <color name="color_9E610A">#9E610A</color>
+    <color name="color_A1E365">#A1E365</color>
+    <color name="color_e6e6e6">#e6e6e6</color>
+    <color name="color_EEEEEE">#EEEEEE</color>
+    <color name="color_E4EAEA">#E4EAEA</color>
+    <color name="color_ff623d">#ff623d</color>
+    <color name="color_D80C18">#D80C18</color>
+    <color name="color_929292">#929292</color>
+    <color name="color_FF623D">#FF623D</color>
+    <color name="white">@android:color/white</color>
+    <color name="cpb_green">#ff99cc00</color>
+    <color name="cpb_red">#ff4444</color>
+    <color name="cpb_blue">#ff0099cc</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="black">@android:color/black</color>
+    <color name="background">#E5E5E5</color>
+    <color name="red">#e60000</color>
+
+
+    <color name="color_44FFFFFF">#44FFFFFF</color>
+    <color name="color_24CA86">#FF24CA86</color>
+    <color name="color_FBDC57">#FBDC57</color>
+
+    <color name="color_F7B72E">#F7B72E</color>
+    <color name="color_F7772F">#F7772F</color>
+
+
+    <color name="color_FDC754">#FDC754</color>
+    <color name="color_FF5151">#FF5151</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="color_bg_guide1">#e74144</color>
+    <color name="color_bg_guide2">#5e98c9</color>
+    <color name="color_bg_guide3">#8eb021</color>
+    <color name="color_w">#FFF</color>
+    <color name="text_color_primary">#333333</color>
+    <color name="text_color_secondary">#F7B62D</color>
+    <color name="dividing_line_color">#D4D4D4</color>
+    <color name="background_color">#F1783c</color>
+    <color name="background_color_blue">#81d035</color>
+    <color name="deep_grown">#F47035</color>
 </resources>

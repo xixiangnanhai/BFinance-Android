@@ -19,7 +19,7 @@ public class BFinanceApplication extends Application {
     }
 
 
-    public static Application getInstants() {
+    public static Application getAppContext() {
         return mInstants;
     }
 

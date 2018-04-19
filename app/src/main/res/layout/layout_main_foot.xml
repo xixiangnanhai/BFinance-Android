@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/background_color"
+              android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y28"
+        android:gravity="center"
+        android:text="数据看板"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+    <!-- 加入额和加入人 -->
+    <LinearLayout
+        android:id="@+id/ll_investment_data_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x30"
+        android:layout_marginRight="@dimen/x30"
+        android:layout_marginTop="@dimen/y27"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/y23"
+        android:paddingLeft="@dimen/x28"
+        android:paddingRight="@dimen/x28"
+        android:paddingTop="@dimen/y23">
+
+        <LinearLayout
+            android:background="@color/deep_grown"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.5"
+                android:text="累计加入币值(元)"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/tv_account_yuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y8"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/deep_grown"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/x40"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.5"
+                android:text="累计加入用户(人)"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y8"
+                android:id="@+id/tv_aacount_people"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
