@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <com.lexiangkeji.bfinance.base.HSToolbar
+        android:id="@+id/base_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <FrameLayout
+        android:id="@+id/base_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/base_toolbar">
+
+    </FrameLayout>
+
+    <ViewStub
+        android:id="@+id/base_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/base_toolbar"
+        android:visibility="gone" />
+
+    <ViewStub
+        android:id="@+id/base_error_with_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/base_toolbar"
+        android:layout="@layout/view_net_error_with_refresh"
+        android:visibility="gone" />
+</LinearLayout>

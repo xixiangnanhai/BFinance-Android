@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/window_background"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon_net_error"/>
+
+    <TextView
+        android:id="@+id/error_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y30"
+        android:text="呀，网络不给力，试试刷新页面"
+        android:textColor="@color/color_C2C2C2"
+        android:textSize="17sp"/>
+
+
+    <TextView
+        android:id="@+id/btn_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x200"
+        android:layout_marginRight="@dimen/x200"
+        android:layout_marginTop="@dimen/y56"
+        android:background="@drawable/btn_yellow_to_canary_yellow_bg_style"
+        android:gravity="center"
+        android:paddingBottom="@dimen/y24"
+        android:paddingTop="@dimen/y24"
+        android:text="点击刷新"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

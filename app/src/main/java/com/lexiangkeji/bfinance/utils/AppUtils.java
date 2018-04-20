@@ -5,7 +5,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
 
-import com.lexiangkeji.bfinance.BFinanceApplication;
+import com.lexiangkeji.bfinance.application.BFinanceApplication;
 
 public final class AppUtils {
 

@@ -96,6 +96,7 @@
     <color name="text_color_secondary">#F7B62D</color>
     <color name="dividing_line_color">#D4D4D4</color>
     <color name="background_color">#F1783c</color>
+    <color name="them_color">#F1783c</color>
     <color name="background_color_blue">#81d035</color>
     <color name="deep_grown">#F47035</color>
 </resources>

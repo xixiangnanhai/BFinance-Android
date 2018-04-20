@@ -8,9 +8,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.lexiangkeji.bfinance.R;
-import com.lexiangkeji.bfinance.view.fragment.FindFragment;
-import com.lexiangkeji.bfinance.view.fragment.HomeMainFragment;
-import com.lexiangkeji.bfinance.view.fragment.MineFragment;
+import com.lexiangkeji.bfinance.ui.fragment.FindFragment;
+import com.lexiangkeji.bfinance.ui.fragment.HomeMainFragment;
+import com.lexiangkeji.bfinance.ui.fragment.MineFragment;
 
 public class DataGenerator {
     public static final int[] mTabRes = new int[]{R.drawable.tab_home_selector, R.drawable.tab_discovery_selector, R.drawable.tab_profile_selector};

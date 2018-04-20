@@ -18,6 +18,7 @@ import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.target.Target;
 import com.bumptech.glide.signature.StringSignature;
+import com.lexiangkeji.bfinance.R;
 
 import java.io.File;
 
@@ -39,12 +40,12 @@ import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 public class ImageLoader {
 
 
-    //默认配置
+    //默认配置//TODO
     public static ImageLoadConfig defConfig = new ImageLoadConfig.Builder().
             setCropType(ImageLoadConfig.CENTER_CROP).
             setAsBitmap(true).
-//            setPlaceHolderResId(R.drawable.bg_loading).
-//            setErrorResId(R.drawable.bg_error).
+            setPlaceHolderResId(R.mipmap.delete_cha).
+            setErrorResId(R.mipmap.delete_cha).
             setDiskCacheStrategy(ImageLoadConfig.DiskCache.SOURCE).
             setPrioriy(ImageLoadConfig.LoadPriority.HIGH).build();
 
