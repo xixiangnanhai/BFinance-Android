@@ -5,4 +5,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="common_known">我知道了</string>
     <string name="enter_quickly">立即进入</string>
+    <string name="remainAccount">剩余金额</string>
+    <string name="investtype">锁定期</string>
+    <string name="startinvest">起投数量</string>
+    <string name="account_profit">收益计算</string>
 </resources>
